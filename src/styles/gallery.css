@@ -1,0 +1,25 @@
+.gallery-navigation {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gallery-navigation button {
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.gallery-navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.gallery-navigation button:hover:not(:disabled) {
+    background-color: #6a1abf;
+}
