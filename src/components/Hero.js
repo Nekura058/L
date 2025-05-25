@@ -10,7 +10,7 @@ const Hero = () => {
         <section id="home" className="hero">
             <div className="hero-content">
                 <h1>To My Dearest</h1>
-                <p>Every moment with you is a treasure. This website is a small token of my love and appreciation.</p>
+                <p>Every moment with you is a treasure. This website is a small token of my love and appreciation, my lovely mal</p>
             </div>
             <div className="hero-image">
                 <img
